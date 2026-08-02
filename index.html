@@ -7,42 +7,55 @@
     <meta name="description" content="Reduce administrative burden and improve patient access with AI-powered operations support for healthcare operators.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <div class="nav-brand">
-                <span class="logo">Medflow</span>
-                <span class="logo-accent">Agents</span>
-            </div>
+            <a href="#top" class="nav-brand" aria-label="Medflow Agents home">
+                <svg class="brand-logo" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+                    <path d="M6 14 L94 14 L50 94 Z" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round"/>
+                    <clipPath id="mf-clip-nav">
+                        <path d="M10 18 L90 18 L50 90 Z"/>
+                    </clipPath>
+                    <g clip-path="url(#mf-clip-nav)" stroke="currentColor" stroke-width="7.5" stroke-linecap="butt">
+                        <line x1="18" y1="18" x2="66.6" y2="105.4"/>
+                        <line x1="32" y1="18" x2="80.6" y2="105.4"/>
+                        <line x1="46" y1="18" x2="94.6" y2="105.4"/>
+                        <line x1="68" y1="18" x2="68" y2="58"/>
+                        <line x1="68" y1="34" x2="82" y2="34"/>
+                    </g>
+                </svg>
+                <span class="brand-text">Medflow Agents</span>
+            </a>
             <div class="nav-links">
                 <a href="#problem">The Problem</a>
                 <a href="#method">CARE Method™</a>
                 <a href="#solutions">Solutions</a>
                 <a href="#about">Why Us</a>
             </div>
-            <a href="#assessment" class="btn btn-primary nav-cta">Schedule CARE Assessment™</a>
+            <a href="#assessment" class="btn btn-primary nav-cta">Book a Discovery Call</a>
         </div>
     </nav>
 
     <!-- Section 1: Hero -->
-    <section class="hero" id="hero">
+    <section class="hero" id="top">
         <div class="container">
             <div class="hero-content">
-                <p class="hero-tagline">Built for home health, senior living & urgent care</p>
+                <p class="hero-tagline">For operators wearing too many hats</p>
                 <h1 class="hero-headline">Reduce Administrative Burden.<br>Improve Patient Access.</h1>
                 <p class="hero-subheadline">Free your staff from repetitive tasks so they can focus on delivering exceptional patient care.</p>
                 <div class="hero-ctas">
-                    <a href="#assessment" class="btn btn-primary btn-large">Schedule a CARE Assessment™</a>
-                    <a href="#method" class="btn btn-secondary btn-large">See How It Works ↓</a>
+                    <a href="#assessment" class="btn btn-primary btn-large">Book a Discovery Call</a>
+                    <a href="#problem" class="btn btn-secondary btn-large">See the cost of doing it all</a>
                 </div>
-                <div class="hero-trust">
-                    <span class="trust-badge">✓ HIPAA Aligned</span>
-                    <span class="trust-badge">✓ TX HB 300 Compliant</span>
-                    <span class="trust-badge">✓ 25+ Years Experience</span>
+                <p class="hero-note">No pricing calls, no pressure — just a conversation about where the hours are going.</p>
+                <div class="hero-verticals" role="list" aria-label="Who Medflow Agents serves">
+                    <span class="vertical-chip" role="listitem">Home Health Agencies</span>
+                    <span class="vertical-chip" role="listitem">Assisted & Senior Living</span>
+                    <span class="vertical-chip" role="listitem">Urgent & Ambulatory Care</span>
                 </div>
             </div>
             <div class="hero-visual">
@@ -75,9 +88,9 @@
     <section class="friction" id="problem">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">The Problem</span>
-                <h2>Does any of this sound familiar?</h2>
-                <p class="section-subtitle">The hats piling up on your desk</p>
+                <span class="section-tag">The problem</span>
+                <h2>One person, four jobs, and a growing list of things that don't get done</h2>
+                <p class="section-subtitle">Across home health, senior living, and urgent care, the pattern repeats: a single owner or office manager is answering the phone, running intake, chasing referral sources, and managing the schedule — often simultaneously. Every hat they wear pulls focus from the other three.</p>
             </div>
             
             <div class="friction-grid">
@@ -109,7 +122,7 @@
 
             <div class="friction-callout">
                 <blockquote>
-                    "These aren't isolated problems. They are symptoms of systemic operational friction."
+                    "These aren't isolated problems. They are symptoms of <em>systemic operational friction</em>."
                 </blockquote>
                 <p class="callout-subtext">One overloaded operator, holding every function together—often losing <strong>10-15 hours a week</strong> to phone tag, re-entering data, and manual scheduling.</p>
             </div>
@@ -140,7 +153,7 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">Our Approach</span>
-                <h2>The CARE Method™</h2>
+                <h2>The <em>CARE Method™</em></h2>
                 <p class="section-subtitle">A Proven Framework for Healthcare AI Success</p>
             </div>
 
@@ -184,7 +197,7 @@
             </div>
 
             <div class="care-cta">
-                <a href="#assessment" class="btn btn-primary">Learn More About the CARE Method™</a>
+                <a href="#assessment" class="btn btn-primary">Book a Discovery Call</a>
             </div>
         </div>
     </section>
@@ -194,8 +207,8 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">Solutions</span>
-                <h2>Engineered to Eliminate Friction</h2>
-                <p class="section-subtitle">Target solutions built to resolve your specific operational gaps</p>
+                <h2>Four systems, each built to answer one of those problems <em>directly</em></h2>
+                <p class="section-subtitle">Medflow Agents doesn't hand you more software to babysit. It's a managed AI layer that runs in the background of your existing workflow.</p>
             </div>
 
             <div class="solutions-grid">
@@ -259,8 +272,8 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">Use Cases</span>
-                <h2>The Hats We Take Off Your Desk</h2>
-                <p class="section-subtitle">These jobs show up in every single-location operation we serve</p>
+                <h2>The hats we take off your desk</h2>
+                <p class="section-subtitle">These jobs show up in every single-location operation we've studied</p>
             </div>
 
             <div class="hats-grid">
@@ -295,12 +308,12 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">Why Us</span>
-                <h2>Built by Operators, for Operators</h2>
+                <h2>Built by a team with <em>25+ years</em> of combined experience</h2>
             </div>
 
             <div class="why-content">
                 <div class="why-text">
-                    <p class="why-lead">Our team has <strong>25+ years</strong> of combined hands-on experience in procurement, logistics, vendor-relationship operations, and custom IT solutions—now applied to healthcare.</p>
+                    <p class="why-lead">Our team has over <em>25+ years</em> of combined hands-on experience in procurement, logistics, vendor-relationship operations, and custom IT solutions—now applied to healthcare.</p>
                     <p>That same operational discipline is applied to the specific bottlenecks that slow down single-location healthcare and senior-care operators.</p>
                     <p>We're not a placement service or a generic software vendor. We build and manage the specific automations your operation needs, and we stay accountable for how well they actually work—not just whether they were installed.</p>
                     
@@ -342,7 +355,7 @@
     <section class="assessment" id="assessment">
         <div class="container">
             <div class="assessment-content">
-                <h2>Let's look at where your hours are actually going</h2>
+                <h2>Let's look at where your hours are <em>actually</em> going</h2>
                 <p class="assessment-subtitle">A CARE Assessment™ is a conversation, not a pitch. Tell us about your operation and we'll tell you honestly whether Medflow Agents is a fit.</p>
                 
                 <div class="assessment-benefits">
@@ -360,7 +373,7 @@
                     </div>
                 </div>
 
-                <a href="mailto:contact@medflowagents.com?subject=CARE Assessment Request" class="btn btn-primary btn-large btn-cta">Schedule Your CARE Assessment™</a>
+                <a href="mailto:contact@medflowagents.com?subject=CARE Assessment Request" class="btn btn-primary btn-large btn-cta">Book a Discovery Call</a>
                 
                 <p class="assessment-note">Or email us directly at <a href="mailto:contact@medflowagents.com">contact@medflowagents.com</a></p>
             </div>
@@ -372,8 +385,20 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <span class="logo">Medflow</span>
-                    <span class="logo-accent">Agents</span>
+                    <svg class="brand-logo" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+                        <path d="M6 14 L94 14 L50 94 Z" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round"/>
+                        <clipPath id="mf-clip-footer">
+                            <path d="M10 18 L90 18 L50 90 Z"/>
+                        </clipPath>
+                        <g clip-path="url(#mf-clip-footer)" stroke="currentColor" stroke-width="7.5" stroke-linecap="butt">
+                            <line x1="18" y1="18" x2="66.6" y2="105.4"/>
+                            <line x1="32" y1="18" x2="80.6" y2="105.4"/>
+                            <line x1="46" y1="18" x2="94.6" y2="105.4"/>
+                            <line x1="68" y1="18" x2="68" y2="58"/>
+                            <line x1="68" y1="34" x2="82" y2="34"/>
+                        </g>
+                    </svg>
+                    <span class="brand-text">Medflow Agents</span>
                     <p class="footer-tagline">AI Operations Support for Healthcare</p>
                 </div>
                 <div class="footer-links">
