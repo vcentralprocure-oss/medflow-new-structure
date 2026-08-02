@@ -388,6 +388,16 @@ em, .italic-accent {
     color: var(--color-text-faint);
 }
 
+/* Hero Micro-copy */
+.hero-microcopy {
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #9CA3AF;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
 /* Hero Trust Badges */
 .hero-trust {
     display: flex;
