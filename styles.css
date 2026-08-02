@@ -716,7 +716,43 @@ em, .italic-accent {
 /* Solutions Section */
 .solutions {
     padding: var(--space-24) 0;
-    background-color: var(--color-surface-offset);
+    background-color: var(--color-bg);
+}
+
+/* Solutions Header - Centered with Badge */
+.solutions-header {
+    text-align: center;
+    max-width: 42rem;
+    margin: 0 auto var(--space-16);
+}
+
+.solutions-badge {
+    display: inline-block;
+    background-color: #11382b;
+    color: #ffffff;
+    font-size: var(--text-xs);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--radius-full);
+    margin-bottom: var(--space-6);
+}
+
+.solutions-header h2 {
+    font-size: var(--text-3xl);
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: var(--space-6);
+    line-height: 1.2;
+}
+
+.solutions-header p {
+    font-size: var(--text-lg);
+    color: #e5e7eb;
+    line-height: 1.6;
+    max-width: 42rem;
+    margin: 0 auto;
 }
 
 .solutions-grid {
