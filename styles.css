@@ -164,10 +164,10 @@ em, .italic-accent {
     gap: var(--space-2);
     font-family: var(--font-body);
     font-size: var(--text-sm);
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 0.01em;
-    padding: var(--space-4) var(--space-6);
-    border-radius: var(--radius-md);
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
     cursor: pointer;
     transition: all var(--transition-interactive);
     border: none;
@@ -175,44 +175,44 @@ em, .italic-accent {
 }
 
 .btn-primary {
-    background-color: var(--color-emerald);
-    color: var(--color-text-inverse);
+    background-color: #0F3D2E;
+    color: #FFFFFF;
 }
 
 .btn-primary:hover {
-    background-color: var(--color-emerald-hover);
-    color: var(--color-text-inverse);
+    background-color: #11382B;
+    color: #FFFFFF;
     transform: translateY(-1px);
     box-shadow: var(--shadow-md);
 }
 
 .btn-secondary {
-    background-color: transparent;
-    color: var(--color-text);
-    border: 1px solid var(--color-border);
+    background-color: #FFFFFF;
+    color: #0F3D2E;
+    border: 1.5px solid #0F3D2E;
 }
 
 .btn-secondary:hover {
-    background-color: var(--color-surface);
-    border-color: var(--color-sage);
-    color: var(--color-text);
+    background-color: #f8faf9;
+    border-color: #0F3D2E;
+    color: #0F3D2E;
 }
 
 .btn-large {
-    padding: var(--space-5) var(--space-8);
+    padding: 0.875rem 1.75rem;
     font-size: var(--text-base);
 }
 
 .btn-cta {
-    background-color: var(--color-emerald);
-    color: var(--color-text-inverse);
+    background-color: #0F3D2E;
+    color: #FFFFFF;
     font-size: var(--text-lg);
     padding: var(--space-5) var(--space-10);
 }
 
 .btn-cta:hover {
-    background-color: var(--color-emerald-hover);
-    color: var(--color-text-inverse);
+    background-color: #11382B;
+    color: #FFFFFF;
 }
 
 /* Navigation */
@@ -388,24 +388,19 @@ em, .italic-accent {
     color: var(--color-text-faint);
 }
 
-/* Hero Verticals */
-.hero-verticals {
+/* Hero Trust Badges */
+.hero-trust {
     display: flex;
+    justify-content: center;
+    gap: var(--space-6);
+    margin-top: var(--space-6);
     flex-wrap: wrap;
-    gap: var(--space-3);
-    margin-top: var(--space-8);
 }
 
-.vertical-chip {
-    display: inline-flex;
-    align-items: center;
-    padding: var(--space-2) var(--space-4);
-    background-color: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-full);
+.trust-badge {
     font-size: var(--text-xs);
+    color: #6B7280;
     font-weight: 500;
-    color: var(--color-text-muted);
 }
 
 /* Hero Visual */
