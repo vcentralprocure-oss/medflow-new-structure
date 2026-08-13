@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{CANONICAL_URL}}",
+  "url": "{{CANONICAL_URL}}",
+  "name": "{{PAGE_TITLE}}",
+  "description": "{{PAGE_DESCRIPTION}}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "https://medflowagents.com/#website",
+    "name": "MedFlow Agents",
+    "url": "https://medflowagents.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://medflowagents.com/#organization"
+  },
+  "datePublished": "{{DATE_PUBLISHED}}",
+  "dateModified": "{{DATE_MODIFIED}}"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{TITLE}}",
+  "description": "{{DESCRIPTION}}",
+  "image": "{{IMAGE_URL}}",
+  "author": {
+    "@type": "Organization",
+    "name": "MedFlow Agents",
+    "url": "https://medflowagents.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MedFlow Agents",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://medflowagents.com/assets/logos/logo.png"
+    }
+  },
+  "datePublished": "{{DATE_PUBLISHED}}",
+  "dateModified": "{{DATE_MODIFIED}}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{CANONICAL_URL}}"
+  },
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "https://medflowagents.com/#website",
+    "name": "MedFlow Agents",
+    "url": "https://medflowagents.com"
+  }
+}
