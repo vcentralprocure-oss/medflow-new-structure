@@ -11,6 +11,74 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- AEO Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://medflowagents.com/#organization",
+          "name": "MedFlow Agents",
+          "alternateName": "Vidahub Products",
+          "url": "https://medflowagents.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://medflowagents.com/assets/logos/logo.png",
+            "width": 512,
+            "height": 512
+          },
+          "description": "AI Operations Support for Home Health, Senior Living & Urgent Care. We help healthcare practices automate patient intake, call handling, and operational workflows.",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-972-433-5696",
+            "contactType": "customer service",
+            "availableLanguage": "English"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://medflowagents.com/#website",
+          "name": "MedFlow Agents",
+          "url": "https://medflowagents.com",
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://medflowagents.com/#organization"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://medflowagents.com/",
+          "url": "https://medflowagents.com/",
+          "name": "Medflow Agents — AI Operations Support for Home Health, Senior Living & Urgent Care",
+          "description": "Reduce administrative burden and improve patient access with AI-powered operations support for healthcare operators.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://medflowagents.com/#website"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://medflowagents.com/#organization"
+          }
+        },
+        {
+          "@type": "Service",
+          "name": "AI Operations Support for Healthcare",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://medflowagents.com/#organization"
+          },
+          "description": "AI-powered operations support including patient intake automation, call handling, referral tracking, and communication workflows for healthcare practices.",
+          "areaServed": "US",
+          "audience": {
+            "@type": "Audience",
+            "audienceType": "Healthcare Operators"
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
