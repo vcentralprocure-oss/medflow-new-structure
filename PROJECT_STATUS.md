@@ -1,8 +1,31 @@
 # MedFlow Agents Website - Project Status
 
 **Last Updated:** August 13, 2026  
-**Project:** medflow-new-structure  
-**Status:** ✅ Phase 1 Complete - Article #1 Published
+**Project:** medflow-practicelaunch  
+**Project ID:** prj_oouY0Woj7XIRFCe44n9Zj3BkAgPs  
+**Status:** ✅ ARCHITECTURE AUDIT COMPLETE - AWAITING DOMAIN TRANSFER
+
+---
+
+## ⚠️ CRITICAL ARCHITECTURE DECISION
+
+**Authoritative Project:** `medflow-practicelaunch`  
+**Production Domain:** `medflowagents.com` (pending transfer)  
+**Legacy Project:** `medflow-new-structure` (DO NOT USE)  
+
+**See:** `PROJECT_ARCHITECTURE.md` for complete rules and guidelines.
+
+---
+
+## Recent Changes
+- ✅ Article #1 (Missed Call Cost Calculator) published
+- ✅ Interactive JavaScript calculator implemented
+- ✅ Article and BreadcrumbList schema markup added
+- ✅ Content brief created for Article #1
+- ✅ pillar-content.json updated with full article metadata
+- ✅ Internal linking map documented
+- ✅ PROJECT_ARCHITECTURE.md created
+- ✅ Architecture audit completed
 
 ---
 
@@ -19,7 +42,9 @@
 ## Current Project Structure
 
 ```
-medflow-new-structure/
+medflow-practicelaunch/ (AUTHORITATIVE)
+├── PROJECT_ARCHITECTURE.md             # ★ ARCHITECTURE RULES ★
+├── PROJECT_STATUS.md                   # This file
 ├── index.html                          # Homepage (root)
 ├── styles.css                          # Global styles
 ├── PROJECT_STATUS.md                   # This file
@@ -191,25 +216,41 @@ medflow-new-structure/
 
 ---
 
-## Remaining Deployment Tasks
+## Critical Tasks (DOMAIN MIGRATION)
 
-### Immediate (Before Next Deploy)
+### BEFORE ANY CONTENT WORK:
+1. [ ] **Transfer medflowagents.com from legacy project**
+   - Remove from `medflow-new-structure`
+   - Add to `medflow-practicelaunch`
+   - Update DNS if needed
+2. [ ] **Transfer www.medflowagents.com from legacy project**
+3. [ ] **Verify root domain serves all content correctly**
+4. [ ] **Update all canonical URLs to use root domain**
+5. [ ] **Configure practicelaunch.medflowagents.com as redirect**
+6. [ ] **Verify no content loss during transfer**
+
+### BLOCKED until domain migration complete:
+- Article #2 development
+- Any new content creation
+- Additional deployments
+
+## Remaining Deployment Tasks (POST-MIGRATION)
+
+### Immediate (After Domain Migration)
 1. [ ] Upload hero image for pillar page
-2. [ ] Create/favicon.ico
-3. [ ] Test all paths on staging
+2. [ ] Create favicon.ico
+3. [ ] Test all paths on production (root domain)
 4. [ ] Verify Vercel routing handles new structure
 
-### Short-term (Next 2 Weeks)
-1. [ ] Write and publish Article 1 (Missed Call Calculator)
-2. [ ] Write and publish Article 2 (HIPAA Checklist)
-3. [ ] Add internal links from pillar to new articles
-4. [ ] Create downloadable PDF checklist
+### Short-term (After Migration)
+1. [ ] Write and publish Article 2 (HIPAA Checklist) - **PENDING YOUR APPROVAL**
+2. [ ] Add internal links from pillar to new articles
+3. [ ] Create downloadable PDF checklist
 
-### Medium-term (Next 2 Months)
+### Medium-term
 1. [ ] Publish remaining 4 supporting articles
-2. [ ] Implement schema markup (Article, Organization, BreadcrumbList)
-3. [ ] Add analytics tracking
-4. [ ] Create ROI calculator tool
+2. [ ] Add analytics tracking
+3. [ ] Create ROI calculator tool
 
 ### Ongoing
 1. [ ] Monthly: Update statistics in pillar content
@@ -219,25 +260,38 @@ medflow-new-structure/
 
 ---
 
-## Assumptions & Notes
+## Architecture Notes
+
+### Authoritative Project
+- **Project:** `medflow-practicelaunch`
+- **Project ID:** `prj_oouY0Woj7XIRFCe44n9Zj3BkAgPs`
+- **Production Domain:** `medflowagents.com` (pending transfer)
+- **Current Domain:** `practicelaunch.medflowagents.com`
+
+### Legacy Project (DO NOT USE)
+- **Project:** `medflow-new-structure`
+- **Project ID:** `prj_ynYWZ2oH4ORmkVgdIsTOPLDRQCTC`
+- **Status:** Has root domain but SSO protected
+- **Action:** Transfer domains to authoritative project
 
 ### Assumptions
 - Vercel deployment will handle the new folder structure without additional routing configuration
 - All existing external links in pillar content are current and valid
 - Calendly link remains active
-- No additional pages exist that weren't in the original root directory
+- Domain transfer will have minimal downtime (seconds)
 
 ### Items Requiring Approval
-1. **Supporting Article Priorities:** Confirm the 6 planned articles align with current marketing priorities
-2. **Image Assets:** Approve hero image selection for pillar page
-3. **CTA Language:** Confirm "CARE Assessment" branding and Calendly flow
-4. **Content Update Frequency:** Approve monthly/quarterly/annual review schedule
+1. **DOMAIN MIGRATION:** Approve transfer of medflowagents.com from legacy to authoritative project
+2. **Supporting Article Priorities:** Confirm the 6 planned articles align with current marketing priorities
+3. **Image Assets:** Approve hero image selection for pillar page
+4. **CTA Language:** Confirm "CARE Assessment" branding and Calendly flow
 
 ### Technical Notes
 - All paths use relative URLs (`../` or `../../`) for portability
 - CSS is shared across all pages from root
 - JSON data files are for reference/documentation (not dynamically loaded)
 - Components are static HTML snippets (not server-side includes)
+- **CRITICAL:** Always verify project name before deployment (must be `medflow-practicelaunch`)
 
 ---
 
@@ -273,6 +327,9 @@ medflow-new-structure/
 
 | Date | Change | Author |
 |------|--------|--------|
-| 2026-08-13 | Initial project restructure | Project Architect |
-| 2026-08-13 | Pillar content deployed | Project Architect |
-| 2026-08-13 | Supporting articles planned | Project Architect |
+| 2026-07-26 | medflow-practicelaunch project created | - |
+| 2026-08-02 | medflow-new-structure project created (legacy) | - |
+| 2026-08-13 | Article #1 deployed to medflow-practicelaunch | OpenClaw |
+| 2026-08-13 | PROJECT_ARCHITECTURE.md created | OpenClaw |
+| 2026-08-13 | Architecture audit completed | OpenClaw |
+| [Pending] | Domain transfer from legacy to authoritative | [Pending approval] |
