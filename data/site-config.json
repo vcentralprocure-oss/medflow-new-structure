@@ -1,0 +1,31 @@
+{
+  "site": {
+    "name": "MedFlow Agents",
+    "tagline": "AI Operations Support for Home Health, Senior Living & Urgent Care",
+    "url": "https://medflowagents.com",
+    "company": "Vidahub Products",
+    "email": "vcentralprocure@gmail.com"
+  },
+  "navigation": {
+    "primary": [
+      {"label": "The Problem", "href": "index.html#problem"},
+      {"label": "CARE Method™", "href": "index.html#method"},
+      {"label": "Solutions", "href": "index.html#solutions"},
+      {"label": "Why Us", "href": "index.html#about"}
+    ],
+    "cta": {
+      "label": "Schedule a CARE Assessment",
+      "href": "https://calendly.com/vcentralprocure/30min"
+    }
+  },
+  "social": {
+    "linkedin": "",
+    "twitter": "",
+    "facebook": ""
+  },
+  "seo": {
+    "defaultTitle": "MedFlow Agents — AI Operations Support for Home Health, Senior Living & Urgent Care",
+    "defaultDescription": "Reduce administrative burden and improve patient access with AI-powered operations support for healthcare operators.",
+    "defaultImage": ""
+  }
+}

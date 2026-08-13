@@ -1,0 +1,236 @@
+{
+  "pillars": [
+    {
+      "id": "patient-intake-automation",
+      "title": "The Complete Guide to Automating Patient Intake, Call Handling, and Operational Workflows in Healthcare",
+      "slug": "automating-patient-intake",
+      "url": "/pages/blog/automating-patient-intake.html",
+      "category": "Healthcare Operations",
+      "publishDate": "2026-08-13",
+      "lastUpdated": "2026-08-13",
+      "author": "MedFlow Agents",
+      "status": "published",
+      "wordCount": 4500,
+      "readingTime": "18 minutes",
+      "keywords": [
+        "automate patient intake",
+        "AI voice agents healthcare",
+        "healthcare call handling automation",
+        "EMR integration automation",
+        "HIPAA compliant AI phone system"
+      ],
+      "description": "Learn how AI voice agents, EMR integration, and HIPAA-compliant automation can transform your healthcare practice's front-desk operations and recover lost revenue.",
+      "sections": [
+        {
+          "id": "executive-summary",
+          "title": "Executive Summary",
+          "heading": "h2"
+        },
+        {
+          "id": "hidden-costs",
+          "title": "Section 1: The Hidden Cost of Manual Patient Intake and Call Handling",
+          "heading": "h2",
+          "subsections": [
+            {"id": "intake-bottlenecks", "title": "The Anatomy of Intake Bottlenecks", "heading": "h3"},
+            {"id": "missed-calls", "title": "Missed Calls = Missed Revenue", "heading": "h3"},
+            {"id": "burnout-cycle", "title": "The Front-Desk Burnout Cycle", "heading": "h3"}
+          ]
+        },
+        {
+          "id": "ai-voice-agents",
+          "title": "Section 2: AI Voice Agents — The New Front-Desk Infrastructure",
+          "heading": "h2",
+          "subsections": [
+            {"id": "what-they-do", "title": "What AI Voice Agents Actually Do", "heading": "h3"},
+            {"id": "ai-vs-ivr", "title": "Conversational AI vs. Legacy IVR", "heading": "h3"},
+            {"id": "capability-checklist", "title": "Core Capability Checklist", "heading": "h3"},
+            {"id": "human-handoff", "title": "Where Human Handoff Still Matters", "heading": "h3"}
+          ]
+        },
+        {
+          "id": "emr-integration",
+          "title": "Section 3: EMR/EHR Integration — Making Automation Actually Work",
+          "heading": "h2",
+          "subsections": [
+            {"id": "why-integration", "title": "Why Integration Is the Make-or-Break Factor", "heading": "h3"},
+            {"id": "integration-pathways", "title": "Common EMR/EHR Systems and Integration Pathways", "heading": "h3"},
+            {"id": "data-flow", "title": "Data Flow Architecture: Call → CRM → EMR → Calendar", "heading": "h3"},
+            {"id": "automation-island", "title": "Avoiding the Automation Island Trap", "heading": "h3"}
+          ]
+        },
+        {
+          "id": "compliance",
+          "title": "Section 4: HIPAA and SOC 2 Compliance in AI-Driven Workflows",
+          "heading": "h2",
+          "subsections": [
+            {"id": "hipaa", "title": "The HIPAA Non-Negotiables", "heading": "h3"},
+            {"id": "soc2", "title": "Why SOC 2 Matters Alongside HIPAA", "heading": "h3"},
+            {"id": "due-diligence", "title": "Vendor Due-Diligence Checklist", "heading": "h3"},
+            {"id": "cost-of-noncompliance", "title": "The Cost of Getting This Wrong", "heading": "h3"}
+          ]
+        },
+        {
+          "id": "roi",
+          "title": "Section 5: Calculating ROI — What Automation Actually Saves and Earns",
+          "heading": "h2",
+          "subsections": [
+            {"id": "roi-formula", "title": "The ROI Formula", "heading": "h3"},
+            {"id": "cost-benefit", "title": "Sample Cost-Benefit Model", "heading": "h3"},
+            {"id": "soft-roi", "title": "Soft ROI: Patient Experience and Staff Retention", "heading": "h3"},
+            {"id": "break-even", "title": "Break-Even Timelines by Practice Size", "heading": "h3"}
+          ]
+        },
+        {
+          "id": "implementation",
+          "title": "Section 6: The Implementation Roadmap — From Audit to Full Deployment",
+          "heading": "h2",
+          "subsections": [
+            {"id": "phase-1", "title": "Phase 1: Operational Audit (Weeks 1–2)", "heading": "h3"},
+            {"id": "phase-2", "title": "Phase 2: Pilot Deployment (Weeks 3–6)", "heading": "h3"},
+            {"id": "phase-3", "title": "Phase 3: EMR Integration and Scaling (Weeks 7–12)", "heading": "h3"},
+            {"id": "phase-4", "title": "Phase 4: Continuous Optimization and Governance (Ongoing)", "heading": "h3"}
+          ]
+        }
+      ],
+      "cta": {
+        "text": "Book your CARE ASSESSMENT with MedFlow Agents",
+        "url": "https://calendly.com/vcentralprocure/30min",
+        "description": "A complimentary operational diagnostic designed to uncover hidden bottlenecks, workflow gaps, and opportunities to improve productivity, patient experience, and operational performance."
+      },
+      "supportingArticles": [
+        {
+          "id": "missed-call-calculator",
+          "title": "Missed Call Cost Calculator: How Much Revenue Your Medical Practice Is Losing",
+          "slug": "missed-call-cost-calculator",
+          "url": "/pages/blog/missed-call-cost-calculator.html",
+          "pillarSection": "hidden-costs",
+          "pillarSectionTitle": "Section 1: The Hidden Cost of Manual Patient Intake and Call Handling",
+          "status": "published",
+          "publishedDate": "2026-08-13",
+          "priority": "high",
+          "type": "interactive-tool",
+          "description": "Interactive calculator showing revenue loss from missed calls with industry benchmark data",
+          "linksToPillar": true,
+          "linksFromPillar": false
+        },
+        {
+          "id": "hipaa-checklist",
+          "title": "HIPAA Compliance Checklist for AI Voice Agents",
+          "slug": "hipaa-compliance-ai-voice-agents",
+          "url": "/pages/blog/hipaa-compliance-ai-voice-agents.html",
+          "pillarSection": "compliance",
+          "pillarSectionTitle": "Section 4: HIPAA and SOC 2 Compliance in AI-Driven Workflows",
+          "status": "planned",
+          "priority": "high",
+          "type": "checklist-guide",
+          "description": "7-point vendor evaluation checklist with BAA negotiation tips",
+          "linksToPillar": true,
+          "linksFromPillar": false
+        },
+        {
+          "id": "emr-integration-guide",
+          "title": "EMR Integration: A Non-Technical Guide for Practice Managers",
+          "slug": "emr-integration-guide-practice-managers",
+          "url": "/pages/blog/emr-integration-guide-practice-managers.html",
+          "pillarSection": "emr-integration",
+          "pillarSectionTitle": "Section 3: EMR/EHR Integration — Making Automation Actually Work",
+          "status": "planned",
+          "priority": "medium",
+          "type": "educational-guide",
+          "description": "HL7 FHIR explained in plain English with integration pathway guidance",
+          "linksToPillar": true,
+          "linksFromPillar": false
+        },
+        {
+          "id": "pilot-playbook",
+          "title": "The 30-Day AI Phone Agent Pilot Playbook",
+          "slug": "ai-phone-agent-pilot-playbook",
+          "url": "/pages/blog/ai-phone-agent-pilot-playbook.html",
+          "pillarSection": "implementation",
+          "pillarSectionTitle": "Section 6: The Implementation Roadmap — From Audit to Full Deployment",
+          "status": "planned",
+          "priority": "high",
+          "type": "implementation-guide",
+          "description": "Week-by-week pilot implementation with success metrics and go/no-go framework",
+          "linksToPillar": true,
+          "linksFromPillar": false
+        },
+        {
+          "id": "roi-case-studies",
+          "title": "Healthcare Automation ROI: Real Numbers from Real Practices",
+          "slug": "healthcare-automation-roi-case-studies",
+          "url": "/pages/blog/healthcare-automation-roi-case-studies.html",
+          "pillarSection": "roi",
+          "pillarSectionTitle": "Section 5: Calculating ROI — What Automation Actually Saves and Earns",
+          "status": "planned",
+          "priority": "medium",
+          "type": "case-study",
+          "description": "Three case studies showing actual ROI from home health, urgent care, and senior living implementations",
+          "linksToPillar": true,
+          "linksFromPillar": false
+        },
+        {
+          "id": "ai-vs-ivr",
+          "title": "AI vs. IVR: The Patient Experience Difference",
+          "slug": "ai-vs-ivr-patient-experience",
+          "url": "/pages/blog/ai-vs-ivr-patient-experience.html",
+          "pillarSection": "ai-voice-agents",
+          "pillarSectionTitle": "Section 2: AI Voice Agents — The New Front-Desk Infrastructure",
+          "status": "planned",
+          "priority": "medium",
+          "type": "comparison-guide",
+          "description": "Side-by-side comparison of conversational AI vs legacy phone tree systems",
+          "linksToPillar": true,
+          "linksFromPillar": false
+        }
+      ],
+      "internalLinkingMap": {
+        "description": "Each supporting article links TO the pillar. Reciprocal links FROM pillar to supporting articles will be added as articles are published.",
+        "articleConnections": [
+          {
+            "articleId": "missed-call-calculator",
+            "pillarSection": "hidden-costs",
+            "pillarAnchor": "missed-calls",
+            "linkText": "Calculate your specific revenue loss with our interactive calculator",
+            "placement": "After 'Missed Calls = Missed Revenue' subsection"
+          },
+          {
+            "articleId": "hipaa-checklist",
+            "pillarSection": "compliance",
+            "pillarAnchor": "due-diligence",
+            "linkText": "Download our complete HIPAA compliance checklist",
+            "placement": "After 'Vendor Due-Diligence Checklist' subsection"
+          },
+          {
+            "articleId": "emr-integration-guide",
+            "pillarSection": "emr-integration",
+            "pillarAnchor": "integration-pathways",
+            "linkText": "See our non-technical guide to EMR integration",
+            "placement": "After 'Common EMR/EHR Systems and Integration Pathways' subsection"
+          },
+          {
+            "articleId": "pilot-playbook",
+            "pillarSection": "implementation",
+            "pillarAnchor": "phase-2",
+            "linkText": "Follow our 30-day pilot playbook",
+            "placement": "After 'Phase 2: Pilot Deployment' subsection"
+          },
+          {
+            "articleId": "roi-case-studies",
+            "pillarSection": "roi",
+            "pillarAnchor": "cost-benefit",
+            "linkText": "Read real case studies from practices like yours",
+            "placement": "After 'Sample Cost-Benefit Model' subsection"
+          },
+          {
+            "articleId": "ai-vs-ivr",
+            "pillarSection": "ai-voice-agents",
+            "pillarAnchor": "ai-vs-ivr",
+            "linkText": "See the detailed AI vs IVR comparison",
+            "placement": "After 'Conversational AI vs. Legacy IVR' subsection"
+          }
+        ]
+      }
+    }
+  ]
+}
